@@ -1,9 +1,9 @@
-body{
+body {
     height: 100vh;
     overflow: hidden;
     background-color: rgb(27, 26, 26);
-    --maincolor:gray;
-    font-family: 'Passions Conflict', cursive;
+    --maincolor: gray;
+    font-family: "Passions Conflict", cursive;
 }
 
 .dove {
@@ -12,21 +12,21 @@ body{
     height: 70%;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
 }
-.div1{
+.div1 {
     position: absolute;
-    width:170px;
+    width: 170px;
     height: 100px;
     top: 310px;
     left: 171px;
     opacity: 0;
     animation: show 1s 1s linear forwards;
-    box-shadow: inset -3px -6px 0px 0px var(--maincolor,black);
+    box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -webkit-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -moz-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -35,7 +35,7 @@ body{
     rotate: 84deg;
     -webkit-animation: show 1s 1s linear forwards;
 }
-.div2{
+.div2 {
     position: absolute;
     width: 245px;
     height: 210px;
@@ -43,7 +43,7 @@ body{
     left: 286px;
     opacity: 0;
     animation: show 1s 2s linear forwards;
-    box-shadow: inset -3px -6px 0px 0px var(--maincolor,black);
+    box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -webkit-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -moz-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -52,15 +52,15 @@ body{
     rotate: 345deg;
     -webkit-animation: show 1s 2s linear forwards;
 }
-.div3{
+.div3 {
     position: absolute;
     width: 112px;
     height: 155px;
-    top:41px;
+    top: 41px;
     left: 289px;
     opacity: 0;
     animation: show 1s 4s linear forwards;
-    box-shadow: inset -3px -6px 0px 0px var(--maincolor,black);
+    box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -webkit-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -moz-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -69,7 +69,7 @@ body{
     rotate: 346deg;
     -webkit-animation: show 1s 4s linear forwards;
 }
-.div4{
+.div4 {
     position: absolute;
     width: 85px;
     height: 125px;
@@ -77,7 +77,7 @@ body{
     left: 341px;
     opacity: 0;
     animation: show 1s 8s linear forwards;
-    box-shadow: inset -3px -6px 0px 0px var(--maincolor,black);
+    box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -webkit-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -moz-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -86,7 +86,7 @@ body{
     rotate: 104deg;
     -webkit-animation: show 1s 8s linear forwards;
 }
-.div5{
+.div5 {
     position: absolute;
     width: 115px;
     height: 50px;
@@ -94,7 +94,7 @@ body{
     left: 280px;
     opacity: 0;
     animation: show 1s 9s linear forwards;
-    box-shadow: inset -3px -6px 0px 0px var(--maincolor,black);
+    box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -webkit-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -moz-border-radius: 103% 0% 100% 0% / 100% 0% 100% 0%;
@@ -103,7 +103,7 @@ body{
     rotate: 78deg;
     -webkit-animation: show 1s 9s linear forwards;
 }
-.div6{
+.div6 {
     position: absolute;
     width: 75px;
     height: 50px;
@@ -111,7 +111,7 @@ body{
     left: 330px;
     opacity: 0;
     animation: show 1s 6s linear forwards;
-    box-shadow: inset -3px -6px 0px 0px var(--maincolor,black);
+    box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -webkit-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -moz-border-radius: 103% 0% 100% 0% / 100% 0% 100% 0%;
@@ -121,8 +121,7 @@ body{
     -webkit-animation: show 1s 6s linear forwards;
 }
 
-
-.div8{
+.div8 {
     position: absolute;
     width: 30px;
     height: 50px;
@@ -130,7 +129,7 @@ body{
     left: 400px;
     opacity: 0;
     animation: show 1s 7s linear forwards;
-    box-shadow: inset -3px -6px 0px 0px var(--maincolor,black);
+    box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -webkit-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -moz-border-radius: 103% 0% 100% 0% / 100% 0% 100% 0%;
@@ -139,24 +138,24 @@ body{
     rotate: 50deg;
     -webkit-animation: show 1s 7s linear forwards;
 }
-.div9{
+.div9 {
     position: absolute;
     width: 48px;
     height: 33px;
-    top:208px;
+    top: 208px;
     left: 268px;
     opacity: 0;
     animation: show 1s 5s linear forwards;
-    box-shadow: inset -3px -6px 0px 0px var(--maincolor,black);
+    box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -webkit-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -moz-border-radius: 103% 0% 100% 0% / 100% 0% 100% 0%;
     -ms-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -o-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
-    rotate:160deg;
+    rotate: 160deg;
     -webkit-animation: show 1s 5s linear forwards;
 }
-.div10{
+.div10 {
     position: absolute;
     width: 50px;
     height: 33px;
@@ -164,16 +163,16 @@ body{
     left: 272px;
     opacity: 0;
     animation: show 1s 3s linear forwards;
-    box-shadow: inset -3px -6px 0px 0px var(--maincolor,black);
+    box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -webkit-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -moz-border-radius: 103% 0% 100% 0% / 100% 0% 100% 0%;
     -ms-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -o-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
-    rotate:168deg;
+    rotate: 168deg;
     -webkit-animation: show 1s 3s linear forwards;
 }
-.div11{
+.div11 {
     position: absolute;
     width: 75px;
     height: 125px;
@@ -181,7 +180,7 @@ body{
     left: 480px;
     opacity: 0;
     animation: show 1s 10s linear forwards;
-    box-shadow: inset -3px -6px 0px 0px var(--maincolor,black);
+    box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -webkit-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -moz-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -190,7 +189,7 @@ body{
     rotate: 330deg;
     -webkit-animation: show 1s 10s linear forwards;
 }
-.div12{
+.div12 {
     position: absolute;
     width: 75px;
     height: 125px;
@@ -198,7 +197,7 @@ body{
     left: 490px;
     opacity: 0;
     animation: show 1s 11s linear forwards;
-    box-shadow: inset -3px -6px 0px 0px var(--maincolor,black);
+    box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -webkit-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -moz-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -207,7 +206,7 @@ body{
     rotate: -5deg;
     -webkit-animation: show 1s 11s linear forwards;
 }
-.div13{
+.div13 {
     position: absolute;
     width: 75px;
     height: 115px;
@@ -215,7 +214,7 @@ body{
     left: 470px;
     opacity: 0;
     animation: show 1s 12s linear forwards;
-    box-shadow: inset -3px -6px 0px 0px var(--maincolor,black);
+    box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -webkit-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -moz-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -224,7 +223,7 @@ body{
     rotate: 15deg;
     -webkit-animation: show 1s 12s linear forwards;
 }
-.div14{
+.div14 {
     position: absolute;
     width: 50px;
     height: 75px;
@@ -232,16 +231,16 @@ body{
     left: 460px;
     opacity: 0;
     animation: show 1s 13s linear forwards;
-    box-shadow: inset -3px -6px 0px 0px var(--maincolor,black);
+    box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -webkit-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -moz-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -ms-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -o-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
-    rotate:30deg;
+    rotate: 30deg;
     -webkit-animation: show 1s 13s linear forwards;
 }
-.div15{
+.div15 {
     position: absolute;
     width: 30px;
     height: 50px;
@@ -249,7 +248,7 @@ body{
     left: 435px;
     opacity: 0;
     animation: show 1s 14s linear forwards;
-    box-shadow: inset -3px -6px 0px 0px var(--maincolor,black);
+    box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -webkit-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -moz-border-radius: 103% 0% 100% 0% / 100% 0% 100% 0%;
@@ -258,15 +257,15 @@ body{
     rotate: 42deg;
     -webkit-animation: show 1s 14s linear forwards;
 }
-.div16{
+.div16 {
     position: absolute;
     width: 30px;
     height: 50px;
     top: 465px;
-    left:425px;
+    left: 425px;
     opacity: 0;
     animation: show 1s 28s linear forwards;
-    box-shadow: inset -3px -6px 0px 0px var(--maincolor,black);
+    box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -webkit-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -moz-border-radius: 103% 0% 100% 0% / 100% 0% 100% 0%;
@@ -275,15 +274,15 @@ body{
     rotate: 285deg;
     -webkit-animation: show 1s 28s linear forwards;
 }
-.div17{
+.div17 {
     position: absolute;
     width: 60px;
-    height:95px;
+    height: 95px;
     top: 40px;
     left: 370px;
     opacity: 0;
     animation: show 1s 15s linear forwards;
-    box-shadow: inset -3px -6px 0px 0px var(--maincolor,black);
+    box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -webkit-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -moz-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -292,7 +291,7 @@ body{
     rotate: 320deg;
     -webkit-animation: show 1s 15s linear forwards;
 }
-.div18{
+.div18 {
     position: absolute;
     width: 30px;
     height: 50px;
@@ -300,16 +299,16 @@ body{
     left: 390px;
     opacity: 0;
     animation: show 1s 16s linear forwards;
-    box-shadow: inset -3px -6px 0px 0px var(--maincolor,black);
+    box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -webkit-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -moz-border-radius: 103% 0% 100% 0% / 100% 0% 100% 0%;
     -ms-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -o-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
-    rotate:     15deg;
+    rotate: 15deg;
     -webkit-animation: show 1s 16s linear forwards;
 }
-.div19{
+.div19 {
     position: absolute;
     width: 35px;
     height: 35px;
@@ -317,7 +316,7 @@ body{
     left: 164.2px;
     opacity: 0;
     animation: show 1s 17s linear forwards;
-    box-shadow: inset 3px 6px 0px 0px var(--maincolor,black);
+    box-shadow: inset 3px 6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -webkit-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -moz-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -326,15 +325,15 @@ body{
     rotate: 341deg;
     -webkit-animation: show 1s 17s linear forwards;
 }
-.div20{
+.div20 {
     position: absolute;
     width: 37px;
     height: 37px;
     top: 185px;
-    left:194px;
+    left: 194px;
     opacity: 0;
     animation: show 1s 18s linear forwards;
-    box-shadow: inset 3px 6px 0px 0px var(--maincolor,black);
+    box-shadow: inset 3px 6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -webkit-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -moz-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -343,7 +342,7 @@ body{
     rotate: 50deg;
     -webkit-animation: show 1s 18s linear forwards;
 }
-.div21{
+.div21 {
     position: absolute;
     width: 52px;
     height: 18px;
@@ -351,7 +350,7 @@ body{
     left: 223px;
     opacity: 0;
     animation: show 1s 19s linear forwards;
-    box-shadow: inset 3px 6px 0px 0px var(--maincolor,black);
+    box-shadow: inset 3px 6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -webkit-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -moz-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -360,7 +359,7 @@ body{
     rotate: 72deg;
     -webkit-animation: show 1s 19s linear forwards;
 }
-.div22{
+.div22 {
     position: absolute;
     width: 39px;
     height: 33px;
@@ -368,7 +367,7 @@ body{
     left: 162px;
     opacity: 0;
     animation: show 1s 20s linear forwards;
-    box-shadow: inset 3px 6px 0px 0px var(--maincolor,black);
+    box-shadow: inset 3px 6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -webkit-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -moz-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -377,7 +376,7 @@ body{
     rotate: 69deg;
     -webkit-animation: show 1s 20s linear forwards;
 }
-.div23{
+.div23 {
     position: absolute;
     width: 20px;
     height: 20px;
@@ -385,7 +384,7 @@ body{
     left: 155px;
     opacity: 0;
     animation: show 1s 21s linear forwards;
-    box-shadow: inset -3px -6px 0px 0px var(--maincolor,black);
+    box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -webkit-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -moz-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -394,7 +393,7 @@ body{
     rotate: -10deg;
     -webkit-animation: show 1s 21s linear forwards;
 }
-.div24{
+.div24 {
     position: absolute;
     width: 8px;
     height: 10px;
@@ -402,16 +401,16 @@ body{
     left: 190px;
     opacity: 0;
     animation: show 1s 22s linear forwards;
-    box-shadow: inset -3px -6px 0px 0px var(--maincolor,black);
+    box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 10% 100% 0% / 100% 0% 100% 0%;
     -webkit-border-radius: 100% 10% 100% 0% / 100% 0% 100% 0%;
     -moz-border-radius: 100% 10% 100% 0% / 100% 0% 100% 0%;
     -ms-border-radius: 100% 10% 100% 0% / 100% 0% 100% 0%;
     -o-border-radius: 100% 10% 100% 0% / 100% 0% 100% 0%;
-    rotate:20deg;
+    rotate: 20deg;
     -webkit-animation: show 1s 22s linear forwards;
 }
-.div25{
+.div25 {
     position: absolute;
     width: 11px;
     height: 15px;
@@ -419,24 +418,24 @@ body{
     left: 280px;
     opacity: 0;
     animation: show 1s 23s linear forwards;
-    box-shadow: inset -3px -6px 0px 0px var(--maincolor,black);
+    box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -webkit-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -moz-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -ms-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
     -o-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
-    rotate:70deg;
+    rotate: 70deg;
     -webkit-animation: show 1s 23s linear forwards;
 }
-.div26{
+.div26 {
     position: absolute;
-    width:28px;
-    height:28px;
+    width: 28px;
+    height: 28px;
     top: 515px;
     left: 360px;
     opacity: 0;
     animation: show 1s 24s linear forwards;
-    box-shadow: inset 3px 6px 0px 0px var(--maincolor,black);
+    box-shadow: inset 3px 6px 0px 0px var(--maincolor, black);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -445,7 +444,7 @@ body{
     rotate: 170deg;
     -webkit-animation: show 1s 24s linear forwards;
 }
-.div27{
+.div27 {
     position: absolute;
     width: 28px;
     height: 28px;
@@ -453,7 +452,7 @@ body{
     left: 380px;
     opacity: 0;
     animation: show 1s 25s linear forwards;
-    box-shadow: inset 3px 6px 0px 0px var(--maincolor,black);
+    box-shadow: inset 3px 6px 0px 0px var(--maincolor, black);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -462,7 +461,7 @@ body{
     rotate: 170deg;
     -webkit-animation: show 1s 25s linear forwards;
 }
-.div28{
+.div28 {
     position: absolute;
     width: 28px;
     height: 28px;
@@ -470,7 +469,7 @@ body{
     left: 400px;
     opacity: 0;
     animation: show 1s 26s linear forwards;
-    box-shadow: inset 3px 6px 0px 0px var(--maincolor,black);
+    box-shadow: inset 3px 6px 0px 0px var(--maincolor, black);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -479,7 +478,7 @@ body{
     rotate: 170deg;
     -webkit-animation: show 1s 26s linear forwards;
 }
-.div29{
+.div29 {
     position: absolute;
     width: 35px;
     height: 40px;
@@ -487,7 +486,7 @@ body{
     left: 425px;
     opacity: 0;
     animation: show 1s 27s linear forwards;
-    box-shadow: inset 3px 6px 0px 0px var(--maincolor,black);
+    box-shadow: inset 3px 6px 0px 0px var(--maincolor, black);
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -496,93 +495,103 @@ body{
     rotate: 170deg;
     -webkit-animation: show 1s 27s linear forwards;
 }
-.div30{position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 515px;
-    left: 140px;
-    box-shadow: inset 1px 4px 0px 0px var(--maincolor,black);
-    border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
-    -webkit-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
-    -moz-border-radius: 103% 0% 100% 0% / 100% 0% 100% 0%;
-    -ms-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
-    -o-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
-    rotate: 150deg;
-}
-.div31{
+
+.div30 {
     position: absolute;
-    width: 30px;
-    height: 30px;
-    top: 524px;
-    left: 145px;
-    box-shadow: inset -1px -4px 0px 0px var(--maincolor,black);
-    border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
-    -webkit-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
-    -moz-border-radius: 103% 0% 100% 0% / 100% 0% 100% 0%;
-    -ms-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
-    -o-border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
-    rotate: 230deg;
-}
-.div32{
-    position: absolute;
-   font-size: 60px;
+    font-size: 60px;
     top: 440px;
     left: -30px;
     color: var(--maincolor);
 }
-.div33{
+.div31 {
     position: absolute;
     width: 180px;
     height: 50px;
     top: 455px;
     left: -30px;
-    background-color:  rgb(27, 26, 26);
-    animation: sign 2.5s 29s linear forwards;
-    -webkit-animation: sign 2.5s 29s linear forwards;
+    background-color: rgb(27, 26, 26);
+    animation: sign 2.5s 30s linear forwards;
+    -webkit-animation: sign 2.5s 30s linear forwards;
 }
+.pencil {
+    position: absolute;
+    width: 6px;
+    height: 140px;
+    top: 354px;
+    left: 0px;
+    opacity: 0;
+    background-color: var(--maincolor);
+    rotate: 35deg;
+    animation: pencil 2.5s 30s linear forwards, show 1s 29s linear forwards;
+    -webkit-animation: pencil 2.5s 30s linear forwards, show 1s 29s linear forwards;
+}
+.pencil::after {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 10px;
+    top: 132px;
+    left: 1px;
+    animation: show 1s 22s linear forwards;
+    box-shadow: inset -3px -6px 0px 0px rgb(27, 26, 26);
+    border-radius: 100% 10% 100% 0% / 100% 0% 100% 0%;
+    -webkit-border-radius: 100% 10% 100% 0% / 100% 0% 100% 0%;
+    -moz-border-radius: 100% 10% 100% 0% / 100% 0% 100% 0%;
+    -ms-border-radius: 100% 10% 100% 0% / 100% 0% 100% 0%;
+    -o-border-radius: 100% 10% 100% 0% / 100% 0% 100% 0%;
+    rotate: 6deg;
+    -webkit-animation: show 1s 22s linear forwards;
+}
+
 @keyframes show {
-    to{
+    to {
         opacity: 1;
     }
 }
 @keyframes sign {
-    to{
+    to {
         left: 120px;
     }
 }
 @keyframes sign1 {
-    to{
+    to {
         left: 400px;
     }
 }
-@media (max-width:700px){
-    body{
+
+@keyframes pencil {
+    to {
+        left: 160px;
+    }
+}
+
+@media (max-width: 700px) {
+    body {
         overflow: hidden;
     }
-    .dove{
-      
-        transform: translate(-228%,-50%);
-        -webkit-transform: translate(-228%,-50%);
-        -moz-transform: translate(-228%,-50%);
-        -ms-transform: translate(-228%,-50%);
-        -o-transform: translate(-228%,-50%);
-}
-.div30{
-    left: 160px;
-}
-.div31{
-    left: 165px;
-}
-.div32{
-    top: 580px;
-    left: 250px;
-    font-size: 50px;
-    width: 100%;
-}
-.div33{
-    top: 585px;
-    left: 250px;
-    animation: sign1 2s 29s linear forwards;
-    -webkit-animation: sign1 2s 29s linear forwards;
-}
+    .dove {
+        transform: translate(-228%, -50%);
+        -webkit-transform: translate(-228%, -50%);
+        -moz-transform: translate(-228%, -50%);
+        -ms-transform: translate(-228%, -50%);
+        -o-transform: translate(-228%, -50%);
     }
+    .div30 {
+        left: 160px;
+    }
+    .div31 {
+        left: 165px;
+    }
+    .div32 {
+        top: 580px;
+        left: 250px;
+        font-size: 50px;
+        width: 100%;
+    }
+    .div33 {
+        top: 585px;
+        left: 250px;
+        animation: sign1 2s 29s linear forwards;
+        -webkit-animation: sign1 2s 29s linear forwards;
+    }
+}
