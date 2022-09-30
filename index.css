@@ -522,8 +522,8 @@ body {
     opacity: 0;
     background-color: var(--maincolor);
     rotate: 35deg;
-    animation: pencil 2.5s 30s linear forwards, show 1s 29s linear forwards;
-    -webkit-animation: pencil 2.5s 30s linear forwards, show 1s 29s linear forwards;
+    animation: pencil 2.5s 30s linear forwards, show 1s 29s linear forwards , vanish 1s 33.5s forwards;
+    -webkit-animation: pencil 2.5s 30s linear forwards, show 1s 29s linear forwards , vanish 1s 33.5s forwards;
 }
 .pencil::after {
     content: "";
@@ -564,7 +564,11 @@ body {
         left: 160px;
     }
 }
-
+@keyframes vanish {
+    to {
+       opacity: 0;
+    }
+}
 @media (max-width: 700px) {
     body {
         overflow: hidden;
