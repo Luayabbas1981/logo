@@ -485,7 +485,7 @@ body{
     top: 485px;
     left: 425px;
     opacity: 0;
-    animation: show s 28s linear forwards;
+    animation: show 1s 28s linear forwards;
     box-shadow: inset 3px 6px 0px 0px var(--maincolor,black);
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -493,7 +493,7 @@ body{
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     rotate: 170deg;
-    -webkit-animation: show s 28s linear forwards;
+    -webkit-animation: show 1s 28s linear forwards;
 }
 .div30{position: absolute;
     width: 30px;
