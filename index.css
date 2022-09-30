@@ -522,8 +522,8 @@ body {
     opacity: 0;
     background-color: var(--maincolor);
     rotate: 35deg;
-    animation: pencil 2.5s 30s linear forwards, show 1s 29s linear forwards , vanish 1s 33.5s forwards;
-    -webkit-animation: pencil 2.5s 30s linear forwards, show 1s 29s linear forwards , vanish 1s 33.5s forwards;
+    animation: pencil 2.5s 30s linear forwards, show 1s 29s linear forwards , set 1s 33.5s forwards,down 1s 34.5s forwards;
+    -webkit-animation: pencil 2.5s 30s linear forwards, show 1s 29s linear forwards , set 1s 33.5s forwards,down 1s 34.9s forwards;
 }
 .pencil::after {
     content: "";
@@ -564,10 +564,15 @@ body {
         left: 160px;
     }
 }
-@keyframes vanish {
+@keyframes set {
     to {
        left: 180px;
        rotate: 0deg;
+    }
+}
+@keyframes down {
+    to{
+        top: 400px;
     }
 }
 @media (max-width: 700px) {
