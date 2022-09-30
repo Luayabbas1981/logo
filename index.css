@@ -560,6 +560,7 @@ body{
         overflow: hidden;
     }
     .dove{
+        overflow: hidden;
         transform: translate(-228%,-50%);
         -webkit-transform: translate(-228%,-50%);
         -moz-transform: translate(-228%,-50%);
