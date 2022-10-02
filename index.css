@@ -3,6 +3,7 @@ body {
     overflow: hidden;
     background-color: rgb(27, 26, 26);
     --maincolor: gray;
+    --opacity:0;
     font-family: "Passions Conflict", cursive;
 }
 
@@ -24,7 +25,7 @@ body {
     height: 100px;
     top: 310px;
     left: 171px;
-    opacity: 0;
+    opacity: var(--opacity);
     animation: show 1s 1s linear forwards;
     box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -41,7 +42,7 @@ body {
     height: 210px;
     top: 12px;
     left: 286px;
-    opacity: 0;
+    opacity: var(--opacity);
     animation: show 1s 4s linear forwards;
     box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -58,7 +59,7 @@ body {
     height: 155px;
     top: 41px;
     left: 289px;
-    opacity: 0;
+    opacity: var(--opacity);
     animation: show 1s 6s linear forwards;
     box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -75,7 +76,7 @@ body {
     height: 125px;
     top: 359px;
     left: 341px;
-    opacity: 0;
+    opacity: var(--opacity);
     animation: show 1s 2s linear forwards;
     box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -92,7 +93,7 @@ body {
     height: 50px;
     top: 466px;
     left: 280px;
-    opacity: 0;
+    opacity: var(--opacity);
     animation: show 1s 3s linear forwards;
     box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -109,7 +110,7 @@ body {
     height: 50px;
     top: 340px;
     left: 330px;
-    opacity: 0;
+    opacity: var(--opacity);
     animation: show 1s 16s linear forwards;
     box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -127,7 +128,7 @@ body {
     height: 50px;
     top: 330px;
     left: 400px;
-    opacity: 0;
+    opacity: var(--opacity);
     animation: show 1s 15s linear forwards;
     box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -144,7 +145,7 @@ body {
     height: 33px;
     top: 208px;
     left: 268px;
-    opacity: 0;
+    opacity: var(--opacity);
     animation: show 1s 7s linear forwards;
     box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -161,7 +162,7 @@ body {
     height: 33px;
     top: 249px;
     left: 272px;
-    opacity: 0;
+    opacity: var(--opacity);
     animation: show 1s 5s linear forwards;
     box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -178,7 +179,7 @@ body {
     height: 125px;
     top: 10px;
     left: 480px;
-    opacity: 0;
+    opacity: var(--opacity);
     animation: show 1s 10s linear forwards;
     box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -195,7 +196,7 @@ body {
     height: 125px;
     top: 80px;
     left: 490px;
-    opacity: 0;
+    opacity: var(--opacity);
     animation: show 1s 11s linear forwards;
     box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -212,7 +213,7 @@ body {
     height: 115px;
     top: 160px;
     left: 470px;
-    opacity: 0;
+    opacity: var(--opacity);
     animation: show 1s 12s linear forwards;
     box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -229,7 +230,7 @@ body {
     height: 75px;
     top: 240px;
     left: 460px;
-    opacity: 0;
+    opacity: var(--opacity);
     animation: show 1s 13s linear forwards;
     box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -246,7 +247,7 @@ body {
     height: 50px;
     top: 300px;
     left: 435px;
-    opacity: 0;
+    opacity: var(--opacity);
     animation: show 1s 14s linear forwards;
     box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -263,7 +264,7 @@ body {
     height: 50px;
     top: 465px;
     left: 425px;
-    opacity: 0;
+    opacity: var(--opacity);
     animation: show 1s 21s linear forwards;
     box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -280,7 +281,7 @@ body {
     height: 95px;
     top: 40px;
     left: 370px;
-    opacity: 0;
+    opacity: var(--opacity);
     animation: show 1s 8s linear forwards;
     box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -297,7 +298,7 @@ body {
     height: 50px;
     top: 140px;
     left: 390px;
-    opacity: 0;
+    opacity: var(--opacity);
     animation: show 1s 9s linear forwards;
     box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -314,7 +315,7 @@ body {
     height: 35px;
     top: 201px;
     left: 164.2px;
-    opacity: 0;
+    opacity: var(--opacity);
     animation: show 1s 22s linear forwards;
     box-shadow: inset 3px 6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -331,7 +332,7 @@ body {
     height: 40px;
     top: 186px;
     left: 194px;
-    opacity: 0;
+    opacity: var(--opacity);
     animation: show 1s 23s linear forwards;
     box-shadow: inset 4px 6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -348,7 +349,7 @@ body {
     height: 18px;
     top: 218px;
     left: 222px;
-    opacity: 0;
+    opacity: var(--opacity);
     animation: show 1s 24s linear forwards;
     box-shadow: inset 3px 6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -365,7 +366,7 @@ body {
     height: 33px;
     top: 252px;
     left: 162px;
-    opacity: 0;
+    opacity: var(--opacity);
     animation: show 1s 25s linear forwards;
     box-shadow: inset 3px 6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -382,7 +383,7 @@ body {
     height: 20px;
     top: 239px;
     left: 155px;
-    opacity: 0;
+    opacity: var(--opacity);
     animation: show 1s 26s linear forwards;
     box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -399,7 +400,7 @@ body {
     height: 10px;
     top: 230px;
     left: 190px;
-    opacity: 0;
+    opacity: var(--opacity);
     animation: show 1s 27s linear forwards;
     box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 10% 100% 0% / 100% 0% 100% 0%;
@@ -416,7 +417,7 @@ body {
     height: 15px;
     top: 400px;
     left: 280px;
-    opacity: 0;
+    opacity: var(--opacity);
     animation: show 1s 28s linear forwards;
     box-shadow: inset -3px -6px 0px 0px var(--maincolor, black);
     border-radius: 100% 0% 100% 0% / 100% 0% 100% 0%;
@@ -433,7 +434,7 @@ body {
     height: 28px;
     top: 515px;
     left: 360px;
-    opacity: 0;
+    opacity: var(--opacity);
     animation: show 1s 17s linear forwards;
     box-shadow: inset 3px 6px 0px 0px var(--maincolor, black);
     border-radius: 50%;
@@ -450,7 +451,7 @@ body {
     height: 28px;
     top: 510px;
     left: 380px;
-    opacity: 0;
+    opacity: var(--opacity);
     animation: show 1s 18s linear forwards;
     box-shadow: inset 3px 6px 0px 0px var(--maincolor, black);
     border-radius: 50%;
@@ -467,7 +468,7 @@ body {
     height: 28px;
     top: 505px;
     left: 400px;
-    opacity: 0;
+    opacity: var(--opacity);
     animation: show 1s 19s linear forwards;
     box-shadow: inset 3px 6px 0px 0px var(--maincolor, black);
     border-radius: 50%;
@@ -484,7 +485,7 @@ body {
     height: 40px;
     top: 485px;
     left: 425px;
-    opacity: 0;
+    opacity: var(--opacity);
     animation: show 1s 20s linear forwards;
     box-shadow: inset 3px 6px 0px 0px var(--maincolor, black);
     border-radius: 50%;
@@ -519,7 +520,7 @@ body {
     height: 140px;
     top: 354px;
     left: 0px;
-    opacity: 0;
+    opacity: var(--opacity);
     background-color: var(--maincolor);
     rotate: 35deg;
     animation: pencil 2.5s 30s linear forwards, show 1s 29s linear forwards , set 1s 33.5s forwards,down 1s 34.5s forwards;
