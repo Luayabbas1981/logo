@@ -577,32 +577,15 @@ body {
     }
 }
 @media (max-width: 700px) {
-    body {
-        overflow: hidden;
-    }
+  
     .dove {
-        transform: translate(-228%, -50%);
-        -webkit-transform: translate(-228%, -50%);
-        -moz-transform: translate(-228%, -50%);
-        -ms-transform: translate(-228%, -50%);
-        -o-transform: translate(-228%, -50%);
-    }
-    .div30 {
-        left: 160px;
-    }
-    .div31 {
-        left: 165px;
-    }
-    .div32 {
-        top: 580px;
-        left: 250px;
-        font-size: 50px;
-        width: 100%;
-    }
-    .div33 {
-        top: 585px;
-        left: 250px;
-        animation: sign1 2s 29s linear forwards;
-        -webkit-animation: sign1 2s 29s linear forwards;
-    }
+    transform: scale(.7) translateX(-365px) translateY(-420px);
+    -webkit-transform: scale(.7) translateX(-365px) translateY(-420px);
+    -moz-transform: scale(.7) translateX(-365px) translateY(-420px);
+    -ms-transform: scale(.7) translateX(-365px) translateY(-420px);
+    -o-transform: scale(.7) translateX(-365px) translateY(-420px);
+}
+   .pencil,.div30,div31{
+    display: none;
+   }
 }
