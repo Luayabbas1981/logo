@@ -1,7 +1,7 @@
 body {
     height: 100vh;
     overflow: hidden;
-    background-color: rgb(27, 26, 26);
+    background-color: #1b1a1a;
     --maincolor: gray;
     --opacity:0;
     font-family: "Passions Conflict", cursive;
@@ -510,28 +510,28 @@ body {
     height: 50px;
     top: 455px;
     left: -30px;
-    background-color: rgb(27, 26, 26);
-    animation: sign 2.5s 30s linear forwards;
-    -webkit-animation: sign 2.5s 30s linear forwards;
+    background-color:  #1b1a1a;
+    animation: sign 1.5s 30s linear forwards;
+    -webkit-animation: sign 1.5s 30s linear forwards;
 }
 .pencil {
     position: absolute;
     width: 6px;
-    height: 140px;
-    top: 354px;
-    left: 0px;
+    height: 126px;
+    top: 365px;
+    left: 2px;
     opacity: var(--opacity);
     background-color: var(--maincolor);
     rotate: 35deg;
-    animation: pencil 2.5s 30s linear forwards, show 1s 29s linear forwards , set 1s 33.5s forwards,down 1s 34.5s forwards;
-    -webkit-animation: pencil 2.5s 30s linear forwards, show 1s 29s linear forwards , set 1s 33.5s forwards,down 1s 34.9s forwards;
+    animation: pencil 1.5s 30s linear forwards, show 1s 29s linear forwards , set .8s 32.5s forwards,down .8s 33.5s forwards;
+    -webkit-animation: pencil 1.5s 30s linear forwards, show 1s 29s linear forwards , set .8s 32.5s forwards,down .8s 33.5s forwards;
 }
 .pencil::after {
     content: "";
     position: absolute;
     width: 8px;
     height: 10px;
-    top: 132px;
+    top: 118px;
     left: 1px;
     animation: show 1s 22s linear forwards;
     box-shadow: inset -3px -6px 0px 0px rgb(27, 26, 26);
@@ -562,7 +562,7 @@ body {
 
 @keyframes pencil {
     to {
-        left: 160px;
+        left: 158px;
     }
 }
 @keyframes set {
