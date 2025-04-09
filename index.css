@@ -1,7 +1,7 @@
 body {
     height: 100vh;
     overflow: hidden;
-    background-color: #1b1a1a;
+    background-color: #000000;
     --maincolor: gray;
     --opacity:0;
     font-family: "Passions Conflict", cursive;
@@ -507,10 +507,10 @@ body {
 .div31 {
     position: absolute;
     width: 180px;
-    height: 50px;
+    height: 55px;
     top: 455px;
     left: -30px;
-    background-color:  #1b1a1a;
+    background-color:  #000;
     animation: sign 1.5s 30s linear forwards;
     -webkit-animation: sign 1.5s 15s linear forwards;
 }
